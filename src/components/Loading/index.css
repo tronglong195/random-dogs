@@ -1,0 +1,13 @@
+.loading {
+  align-self: center;
+  text-align: center;
+}
+
+.img--loading {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: transparent;
+  opacity: 0.9;
+}

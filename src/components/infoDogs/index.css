@@ -1,0 +1,75 @@
+.infoDog {
+  background: #0ea5e9;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.infoDog--title {
+  width: 150px;
+  background: #ef3b36; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ef3b36
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ef3b36
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 13px;
+  color: #18181b;
+}
+
+.infoDog--title .infoDog--title__color {
+  color: #1c329f;
+}
+.color--red {
+  color: #18181b;
+}
+.infoDog--from {
+  display: flex;
+  flex-direction: column;
+}
+.infoDog--setName {
+  background: #ef3b36; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #000b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #000b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 13px;
+  color: #18181b;
+}
+label,
+input,
+button {
+  font-size: 13px;
+  display: inline-block;
+}
+.input_value {
+  margin-top: 5px;
+}
+.setName {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.infoDog--btn {
+  margin: 0 auto;
+  width: 70px;
+  align-self: center;
+}
